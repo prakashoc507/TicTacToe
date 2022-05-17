@@ -1,18 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Roboto:wght@300&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
 /*heading of the game*/
 nav ul{
-    list-style: none;
-    text-align: center;
-    color: rgb(64, 27, 104);
-    font-size: xxx-large;    
+    list-style: none;    
+    color: rgb(45, 13, 78);
+    font-size: 30px;    
     border-radius: 2rem;    
-    margin: 5% 10% 0% 10%;  
-    
+    font-family: sans-serif;
+    padding: 0 15px;
+    align-items: center;    
 }
 
 nav{
-    background-color:#14bdac;    
-    border-radius: 1em;
-    width: 70%;
-    margin: 0% 0% 0% 15%;
+    background-color:#88c0ba;    
+       
 }
 
