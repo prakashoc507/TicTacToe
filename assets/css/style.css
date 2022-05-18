@@ -1,26 +1,46 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Roboto:wght@300&display=swap');
 
-*{
+* {
     margin: 0;
     padding: 0;
+
 }
 
 /*heading of the game*/
-nav ul{
-    list-style: none;    
+nav ul {
+    list-style: none;
     color: rgb(45, 13, 78);
-    font-size: 30px;    
-    border-radius: 2rem;    
+    font-size: 30px;
+    border-radius: 2rem;
     font-family: sans-serif;
     padding: 0 15px;
-    align-items: center;    
+    align-items: center;
 }
 
-nav{
-    background-color:#88c0ba;    
-       
+nav {
+    background-color: #88c0ba;
+
 }
 
+/*Game-Area*/
 
+#game-container{
+    background-color: #13e2ce;
+    margin-top: auto;
+    display: flex;
+    height: 65vh;
+    width: 100vw;
+    justify-content: center;
+}
 
+.container {
+    display: grid;
+    grid-template-columns: repeat(3, 15vw);
+    grid-template-rows: repeat(3, 15vh);
+    
+}
 
+.box{
+    border: 2px solid;
+    color: cadetblue;
+}
