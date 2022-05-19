@@ -59,7 +59,7 @@ nav {
 /*style for result area*/
 
 #resultArea{
-    margin-top: auto;
+    margin-top: 70px;
     width: 50%;
     
 }
@@ -89,5 +89,5 @@ nav {
 }
 
 #resultArea .cheerImage{
-    size: 10px;
+    size: 1px;
 }
