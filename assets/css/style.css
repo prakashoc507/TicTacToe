@@ -44,9 +44,29 @@ nav {
 .box {
     border: 2px solid;
     font-size: 7vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 
 }
 
 .box:hover {
-    background-color: rgb(238, 206, 167);
+    background-color: rgb(167, 210, 238);
+}
+
+#resultArea{
+    margin-top: auto;
+    width: 50%;
+    
+}
+
+#resultArea .turn1{
+    border-style: groove;
+    border-color: darkgreen;
+    border-radius: 5px;
+    margin-left: 15px;
+}
+
+#resultArea .cheerImage{
+    size: 10px;
 }
