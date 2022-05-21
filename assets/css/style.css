@@ -89,5 +89,6 @@ nav {
 }
 
 #resultArea .cheerImage{
-    size: 1px;
+    height: 10em;
+    width: 8em;
 }
