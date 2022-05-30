@@ -16,7 +16,7 @@ nav ul {
     padding: 0 15px;
     align-items: center;
     text-align: center;
-    
+
 }
 
 nav {
@@ -59,57 +59,55 @@ nav {
 
 /*style for result area*/
 
-#resultArea{
+#resultArea {
     margin-top: 70px;
     width: 50%;
-    
+
 }
 
-#resultArea p{
+#resultArea p {
     font-family: cursive;
     font-size: 2em;
 }
 
-#resultArea .turn1{
+#resultArea .turn1 {
     border-style: groove;
     border-color: darkgreen;
     border-radius: 5px;
     margin-left: 15px;
-    
+
 }
 
 #resultArea .Newgame {
     border-style: groove;
     border-color: darkgreen;
     border-radius: 5px;
-    
+
 }
 
-.Newgame:hover{
-    background-color:rgb(172, 172, 235);
+.Newgame:hover {
+    background-color: rgb(172, 172, 235);
 }
 
-#resultArea .cheerImage{
-    height: 10em;
-    width: 8em;
+#resultArea .cheerImage {
+    width: 0;
+    transition: width 1s ease-in-out;
 }
 
 /*remove border for main game area*/
 
-.bl-0{
+.bl-0 {
     border-left: 0;
 }
 
-.bt-0{
+.bt-0 {
     border-top: 0;
 }
 
-.br-0{
+.br-0 {
     border-right: 0;
 }
 
-.bb-0{
+.bb-0 {
     border-bottom: 0;
 }
-
-
