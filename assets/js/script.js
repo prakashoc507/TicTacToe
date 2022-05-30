@@ -36,13 +36,14 @@ const checkWin = () => {
         [1, 4, 7],
         [2, 5, 8],
         [0, 4, 8],
-        [2, 4, 6, ]
+        [2, 4, 6],
 
     ]
     wins.forEach(e => {
         if ((text[e[0]].innerText === text[e[1]].innerText) && (text[e[2]].innerText === text[e[1]].innerText) && (text[e[0]].innerText !== "")) {
             document.querySelector(".turn1").innerText = text[e[0]].innerText + "won"
             gameOver = true
+            document.querySelector('.cheerImage').style.width = "150px"
         }
     })
 }
